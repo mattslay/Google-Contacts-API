@@ -11,6 +11,7 @@
     <form id="form1" runat="server">
         <div class="content">
             <asp:Button ID="googleButton" Text="Get All Google Contacts" runat="server" OnClick="googleButton_Click" />
+            <asp:Button ID="googleButtonNewContact" Text="Get from New account/ Sign in with Different account" runat="server" OnClick="googleButtonNewContact_Click" />
               <asp:GridView ID="contactGrid" runat="server" CellPadding="4" 
                                                 ForeColor="#333333" GridLines="None" Width="100%">
                                                 <RowStyle BackColor="#EFF3FB" />

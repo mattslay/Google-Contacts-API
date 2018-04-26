@@ -40,6 +40,7 @@ public class GoogleContactService
         StreamReader reader = new StreamReader(postStream);
         string responseFromServer = reader.ReadToEnd();
         GooglePlusAccessToken serStatus = JsonConvert.DeserializeObject<GooglePlusAccessToken>(responseFromServer);
+        HttpContext.Current.Session["serStatus"] = serStatus;
         return serStatus;
     }
     public List<ContactDetail> GetContacts(GooglePlusAccessToken serStatus)
