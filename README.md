@@ -11,3 +11,6 @@ Fetch All Google Contacts - Asp.net web form
 
 
 See this link for docs on Google gdata: https://code.google.com/archive/p/google-gdata/
+
+I found a few helpful insights here: https://www.faithinmarketing.com/google-gmail-contacts-databases-template-headers/
+
