@@ -8,3 +8,6 @@ Fetch All Google Contacts - Asp.net web form
 5. Go back to Visual Studio and open web.config file
 6. Edit the web.config fields with the respective data that is client id, secret key and app name.
 7. Put the redirect url what you have given on app, it should be page url where you want google to redirect user after authentocation. 
+
+
+See this link for docs on Google gdata: https://code.google.com/archive/p/google-gdata/
